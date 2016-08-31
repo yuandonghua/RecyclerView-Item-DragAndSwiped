@@ -60,9 +60,28 @@ public class HistoryActivity extends AppCompatActivity {
         //historyAdapter就是RecyclerView的适配器,historyAdapter实现了接口OnMoveAndSwipedListener
         ItemTouchHelperCallback callback = new ItemTouchHelperCallback(historyAdapter);
         //ItemTouchHelper的构造器需要传入callback,拖拽和滑动事件需要回调callback中的3个方法
-        ItemTouchHelper itemTouchHelper = new ItemTouchHelper(callback);
+        final ItemTouchHelper itemTouchHelper = new ItemTouchHelper(callback);
         //把RecyclerView和ItemTouchHelper关联起来用此方法
         itemTouchHelper.attachToRecyclerView(recyclerView);
+        //设置条目拖拽接口
+        historyAdapter.setOnDragListener(new OnDragListener() {
+            /**
+             * @param viewHolder
+             * @description:当条目需要拖拽的时候,适配器调用onDrag
+             * @author:袁东华 created at 2016/8/31 0031 下午 1:26
+             */
+            @Override
+            public void onDrag(RecyclerView.ViewHolder viewHolder) {
+                itemTouchHelper.startDrag(viewHolder);
+            }
+
+
+
+
+        });
+
+
+
     }
 
 
@@ -97,4 +116,6 @@ public class HistoryActivity extends AppCompatActivity {
             }
         }
     };
+
+
 }

@@ -3,30 +3,66 @@
 
     <item
         is-multidex="false"
-        jar="D:\GitHub\RecyclerView-item-dragAndSwiped\app\build\intermediates\exploded-aar\org.xutils\xutils\3.3.36\jars\classes.jar"
+        jar="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.0.0_a0990203118cd749a118f10c7a2925721e1aa83b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.0.0_dc96bffc5ee6ecc4ad5c3cb603fee9039878ce46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.0.0_d9fa4d49271704f8bac38f3caf9c123318f1bda6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_15ad14a76a976109964c736e290f2315591fda14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\exploded-aar\org.xutils\xutils\3.3.36\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.1"
         sha1="a525a7f2e266f577629f68820a462a807c66eec7">
-        <dex dex="D:\GitHub\RecyclerView-item-dragAndSwiped\app\build\intermediates\pre-dexed\debug\org.xutils-xutils-3.3.36_96e0b6bbcc7b7c8a4187e71e74aff3c7d24d2329.jar" />
+        <dex dex="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\pre-dexed\debug\org.xutils-xutils-3.3.36_4a648a490ecd6de5b89edeb77e2dcb69eab1d988.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\GitHub\RecyclerView-item-dragAndSwiped\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0\jars\classes.jar"
+        jar="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.1"
         sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
-        <dex dex="D:\GitHub\RecyclerView-item-dragAndSwiped\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-24.0.0_42e894fc5ffec62bbf725bd0b87d02db5916b7b3.jar" />
+        <dex dex="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-24.0.0_b118a3da77627b520e1f9e127e98ca4ce73e3fc6.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\GitHub\RecyclerView-item-dragAndSwiped\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jar="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.1"
         sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="D:\GitHub\RecyclerView-item-dragAndSwiped\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_b91caa31792588af57b362f46279950129a0ecb9.jar" />
+        <dex dex="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_8756a183eadf1c0a2cb768db8d8a58ef1f15728f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -35,52 +71,16 @@
         optimize="true"
         revision="24.0.1"
         sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
-        <dex dex="D:\GitHub\RecyclerView-item-dragAndSwiped\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_78f99f063cd371b0b5b1c2eb911657d07a9193cb.jar" />
+        <dex dex="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_78f99f063cd371b0b5b1c2eb911657d07a9193cb.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\GitHub\RecyclerView-item-dragAndSwiped\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
-        <dex dex="D:\GitHub\RecyclerView-item-dragAndSwiped\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.0.0_9995059f3c039d9bd97bf42b1cb766c5d685f902.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\GitHub\RecyclerView-item-dragAndSwiped\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
+        jar="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.1"
         sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
-        <dex dex="D:\GitHub\RecyclerView-item-dragAndSwiped\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.0.0_a185743a82e3a3f4f4860ee82c7cd934048f6ab5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\GitHub\RecyclerView-item-dragAndSwiped\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
-        <dex dex="D:\GitHub\RecyclerView-item-dragAndSwiped\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.0.0_219d2764e5c96b0653905d187719a327584e4968.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\GitHub\RecyclerView-item-dragAndSwiped\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
-        <dex dex="D:\GitHub\RecyclerView-item-dragAndSwiped\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.0.0_3a4b3eb59397c8adbb0473b009b55d31a5aea13c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\GitHub\RecyclerView-item-dragAndSwiped\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="D:\GitHub\RecyclerView-item-dragAndSwiped\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_86267ffb7e741914bfa0dae09a47c74d9475aedb.jar" />
+        <dex dex="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.0.0_715279c852177bbe26788f53b9c8f41833e15e19.jar" />
     </item>
 
 </items>

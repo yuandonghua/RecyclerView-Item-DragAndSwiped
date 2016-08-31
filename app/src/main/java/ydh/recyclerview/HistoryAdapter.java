@@ -3,9 +3,11 @@ package ydh.recyclerview;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Handler;
+import android.support.v4.view.MotionEventCompat;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.RecyclerView.Adapter;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -18,9 +20,8 @@ import java.util.Collections;
 
 
 /**
- *@description:历史记录的适配器
- *@author:袁东华
- *created at 2016/8/30 0030 下午 2:00
+ * @description:历史记录的适配器
+ * @author:袁东华 created at 2016/8/30 0030 下午 2:00
  */
 public class HistoryAdapter extends Adapter<HistoryAdapter.ViewHolder> implements OnMoveAndSwipedListener {
     private OnItemClickListener mOnItemClickListener;
@@ -38,6 +39,12 @@ public class HistoryAdapter extends Adapter<HistoryAdapter.ViewHolder> implement
         notifyDataSetChanged();
     }
 
+    private OnDragListener onDragListener;
+
+    public void setOnDragListener(OnDragListener onDragListener) {
+        this.onDragListener = onDragListener;
+    }
+
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         ViewHolder viewHolder = null;
@@ -47,12 +54,24 @@ public class HistoryAdapter extends Adapter<HistoryAdapter.ViewHolder> implement
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, final int position) {
+    public void onBindViewHolder(final ViewHolder holder, final int position) {
         x.image().bind(holder.imageView, list.get(position).getThumb());
         holder.title_tv.setText(list.get(position).getTitle());
         holder.time_tv.setText(list.get(position).getTimeShow());
         holder.desc_tv.setText(list.get(position).getDescr());
+        //实现拖拽图片时拖拽条目
+        holder.imageView.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                //如果手指按下图片
+                if (MotionEventCompat.getActionMasked(event) == MotionEvent.ACTION_DOWN) {
+                    //回调 itemTouchHelper.startDrag(viewHolder);
+                    onDragListener.onDrag(holder);
+                }
 
+                return false;
+            }
+        });
 
     }
 
