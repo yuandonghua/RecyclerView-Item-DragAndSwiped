@@ -13,5 +13,5 @@ public interface OnDragListener {
      *@author:袁东华
      *created at 2016/8/31 0031 下午 1:26
      */
-   void onDrag(RecyclerView.ViewHolder viewHolder);
+   void startDrag(RecyclerView.ViewHolder viewHolder);
 }

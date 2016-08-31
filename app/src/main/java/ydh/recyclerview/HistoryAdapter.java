@@ -67,7 +67,9 @@ public class HistoryAdapter extends Adapter<HistoryAdapter.ViewHolder> implement
                 //如果手指按下图片
                 if (MotionEventCompat.getActionMasked(event) == MotionEvent.ACTION_DOWN) {
                     //回调 itemTouchHelper.startDrag(viewHolder);
-                    onDragListener.onDrag(holder);
+                    if (onDragListener != null) {
+                        onDragListener.startDrag(holder);
+                    }
                 }
 
                 return false;
