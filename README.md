@@ -461,4 +461,4 @@ public interface OnStateChangedListener {
 - callback中onChildDraw这个方法,滑动删除条目时,可以绘制itemview,在这里个可以设置条目透明度
 - 这样就完成了,操作条目时,改变透明度效果,当然也可以做其他改变,比如背景色等
 
-#### 总结:以上就是RecyclerView拖拽条目,滑动删除条目效果的步骤了,如果有看不懂的请下载代码
+## 总结:以上就是RecyclerView拖拽条目,滑动删除条目效果的步骤了,如果有看不懂的请下载代码
