@@ -1,7 +1,8 @@
 package ydh.recyclerview;
 
 import android.app.Activity;
-import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.os.Handler;
 import android.support.v4.view.MotionEventCompat;
 import android.support.v7.widget.RecyclerView;
@@ -110,7 +111,7 @@ public class HistoryAdapter extends Adapter<HistoryAdapter.ViewHolder> implement
         notifyItemRemoved(position);
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+    public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener,OnStateChangedListener {
         private ImageView imageView;
         private TextView title_tv;
         private TextView time_tv, desc_tv;
@@ -133,6 +134,25 @@ public class HistoryAdapter extends Adapter<HistoryAdapter.ViewHolder> implement
                 onItemClickListener.onItemClick(v, getLayoutPosition());
 
             }
+        }
+
+        /**
+         * @description:拖拽,滑动item时调用,可以做改变背景色操作
+         * @author:袁东华 created at 2016/8/31 0031 下午 1:51
+         */
+        @Override
+        public void onSelectedChanged() {
+            itemView.setAlpha(0.5f);
+        }
+
+        /**
+         * @description:条目正常状态:拖拽,滑动结束后,背景色恢复正常
+         * @author:袁东华 created at 2016/8/31 0031 下午 2:37
+         */
+        @Override
+        public void clearView() {
+
+            itemView.setAlpha(1.0f);
         }
     }
 

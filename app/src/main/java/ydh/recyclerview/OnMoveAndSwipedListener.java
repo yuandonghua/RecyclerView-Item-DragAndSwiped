@@ -17,4 +17,5 @@ public interface OnMoveAndSwipedListener {
      *created at 2016/8/30 0030 上午 11:48
      */
     void onItemDelete(int position);
+
 }
