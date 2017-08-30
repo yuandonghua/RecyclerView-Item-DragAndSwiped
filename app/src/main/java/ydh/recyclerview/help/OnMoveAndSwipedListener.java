@@ -1,4 +1,4 @@
-package ydh.recyclerview;
+package ydh.recyclerview.help;
 
 /**
  * @description:当拖拽或者侧滑的时候,需要回调此接口中的方法,来操作adapter中的数据

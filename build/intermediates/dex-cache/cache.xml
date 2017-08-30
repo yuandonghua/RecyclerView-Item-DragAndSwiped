@@ -2,85 +2,94 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/yuandonghua/Desktop/GItHub/RecyclerView-Item-DragAndSwiped/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
-        <dex dex="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.0.0_a0990203118cd749a118f10c7a2925721e1aa83b.jar" />
+        revision="25.0.0"
+        sha1="92c97c74f2b6f7a7a56fdaf2ef1f9d580211a00a">
+        <dex dex="/Users/yuandonghua/Desktop/GItHub/RecyclerView-Item-DragAndSwiped/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3d6248c832e47d128d2577f7e0d4ba209650bfc8/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/yuandonghua/.android/build-cache/eabdcbb97729de44e58fbc5c28e40eea76d1f561/output/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
-        <dex dex="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.0.0_dc96bffc5ee6ecc4ad5c3cb603fee9039878ce46.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
-        <dex dex="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.0.0_d9fa4d49271704f8bac38f3caf9c123318f1bda6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_15ad14a76a976109964c736e290f2315591fda14.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\exploded-aar\org.xutils\xutils\3.3.36\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="a525a7f2e266f577629f68820a462a807c66eec7">
-        <dex dex="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\pre-dexed\debug\org.xutils-xutils-3.3.36_4a648a490ecd6de5b89edeb77e2dcb69eab1d988.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
+        revision="25.0.0"
         sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
-        <dex dex="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-24.0.0_b118a3da77627b520e1f9e127e98ca4ce73e3fc6.jar" />
+        <dex dex="/Users/yuandonghua/Desktop/GItHub/RecyclerView-Item-DragAndSwiped/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_03a1edbd1d3ad02ad77d9f6d2239c47ecfda509a/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/yuandonghua/.android/build-cache/787fcba406fe287ca44e4d052e22ca4ea139d2fd/output/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_8756a183eadf1c0a2cb768db8d8a58ef1f15728f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
-        <dex dex="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_78f99f063cd371b0b5b1c2eb911657d07a9193cb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
+        revision="25.0.0"
         sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
-        <dex dex="D:\GitHub\RecyclerView-Item-DragAndSwiped\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.0.0_715279c852177bbe26788f53b9c8f41833e15e19.jar" />
+        <dex dex="/Users/yuandonghua/Desktop/GItHub/RecyclerView-Item-DragAndSwiped/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ed0627de7d8331e0fadf4b71126a86c620075e32/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuandonghua/Desktop/GItHub/RecyclerView-Item-DragAndSwiped/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/yuandonghua/Desktop/GItHub/RecyclerView-Item-DragAndSwiped/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_aa9345746ed15755ac6a42a0c712c496d27a7ed4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuandonghua/.android/build-cache/d14e6490f612c57aa9bc167009e1dceb1818804f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="/Users/yuandonghua/Desktop/GItHub/RecyclerView-Item-DragAndSwiped/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c2da955c0bc82ec8e583a7e36532659a9bccc9f3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuandonghua/.android/build-cache/2fb23e73c67258e94eb15b1b15ea0c23a3c375ce/output/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/yuandonghua/Desktop/GItHub/RecyclerView-Item-DragAndSwiped/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_07e94c58625705dca59dbcf5fd1e50c35c2a05fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuandonghua/.android/build-cache/2fb23e73c67258e94eb15b1b15ea0c23a3c375ce/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/yuandonghua/Desktop/GItHub/RecyclerView-Item-DragAndSwiped/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8f3665b01826043cb8925548ba57e56fda98055f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuandonghua/.android/build-cache/017dd6c235dc50ffc0d285553415c448b1bc9127/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/Users/yuandonghua/Desktop/GItHub/RecyclerView-Item-DragAndSwiped/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7d0a7e3083cb856444d1a9bc81fd45cd5d0b88d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuandonghua/.android/build-cache/2a9b0531357ceacc8f3951549b4010da728a742e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/Users/yuandonghua/Desktop/GItHub/RecyclerView-Item-DragAndSwiped/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f7cd93ba9b00796df6efab232a6a80bb308a29a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuandonghua/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/yuandonghua/Desktop/GItHub/RecyclerView-Item-DragAndSwiped/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_339a3b4a2c4f3521e93d1d8e9c57188836cff971/classes.dex" />
     </item>
 
 </items>

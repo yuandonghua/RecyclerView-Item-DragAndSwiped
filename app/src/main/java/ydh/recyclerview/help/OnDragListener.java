@@ -1,4 +1,4 @@
-package ydh.recyclerview;
+package ydh.recyclerview.help;
 
 import android.support.v7.widget.RecyclerView;
 

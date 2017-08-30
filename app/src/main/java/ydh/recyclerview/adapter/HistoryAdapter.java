@@ -1,8 +1,6 @@
-package ydh.recyclerview;
+package ydh.recyclerview.adapter;
 
 import android.app.Activity;
-import android.graphics.Color;
-import android.graphics.drawable.Drawable;
 import android.os.Handler;
 import android.support.v4.view.MotionEventCompat;
 import android.support.v7.widget.RecyclerView;
@@ -14,10 +12,15 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.xutils.x;
-
 import java.util.ArrayList;
 import java.util.Collections;
+
+import ydh.recyclerview.data.Weather;
+import ydh.recyclerview.help.OnDragListener;
+import ydh.recyclerview.help.OnItemClickListener;
+import ydh.recyclerview.help.OnMoveAndSwipedListener;
+import ydh.recyclerview.R;
+import ydh.recyclerview.help.OnStateChangedListener;
 
 
 /**
@@ -27,7 +30,7 @@ import java.util.Collections;
 public class HistoryAdapter extends Adapter<HistoryAdapter.ViewHolder> implements OnMoveAndSwipedListener {
     private OnItemClickListener mOnItemClickListener;
     private Activity activity;
-    private ArrayList<Film> list;
+    private ArrayList<Weather> list;
     private Handler handler;
 
     public HistoryAdapter(Activity activity, Handler handler) {
@@ -35,7 +38,7 @@ public class HistoryAdapter extends Adapter<HistoryAdapter.ViewHolder> implement
         this.handler = handler;
     }
 
-    public void setList(ArrayList<Film> list) {
+    public void setList(ArrayList<Weather> list) {
         this.list = list;
         notifyDataSetChanged();
     }
@@ -56,7 +59,7 @@ public class HistoryAdapter extends Adapter<HistoryAdapter.ViewHolder> implement
 
     @Override
     public void onBindViewHolder(final ViewHolder holder, final int position) {
-        x.image().bind(holder.imageView, list.get(position).getThumb());
+        holder.imageView.setImageResource(list.get(position).getThumb());
         holder.title_tv.setText(list.get(position).getTitle());
         holder.time_tv.setText(list.get(position).getTimeShow());
         holder.desc_tv.setText(list.get(position).getDescr());
