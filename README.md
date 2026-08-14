@@ -1,3 +1,5 @@
+
+
 ![image](https://github.com/yuandonghua/RecyclerView-Item-DragAndSwiped/blob/308721ae7bef8950149fbb05109e570a6e2d3800/screenshot/GIF.gif?raw=true)
 ## 效果:RecyclerView实现滑动删除条目,长按拖拽条目,拖拽和滑动时可以改变条目背景色和透明度,操作完成后条目的背景色透明度等复原.
 其实很简单,需要用到android.support.v7.widget.helper.ItemTouchHelper,这个工具类已经实现了需要的功能,只需要知道如何使用就ok了.
@@ -96,7 +98,7 @@ public class ItemTouchHelperCallback extends ItemTouchHelper.Callback {
             //判断下ViewHolder是否实现了OnStateChangedListener
             if (viewHolder instanceof OnStateChangedListener) {
                 OnStateChangedListener onStateChangedListener = (OnStateChangedListener) viewHolder;
-                //回调ViewHolder中的onItemSelected()方法改变背景色
+                //回调ViewHolder中的onSelectedChanged()方法改变背景色
                 onStateChangedListener.onSelectedChanged();
             }
         }
@@ -110,7 +112,7 @@ public class ItemTouchHelperCallback extends ItemTouchHelper.Callback {
         //判断下ViewHolder是否实现了OnStateChangedListener
         if (viewHolder instanceof OnStateChangedListener) {
             OnStateChangedListener onStateChangedListener = (OnStateChangedListener) viewHolder;
-            //回调ViewHolder中的onItemSelected()方法改变背景色
+            //回调ViewHolder中的clearView()方法恢复背景色
             onStateChangedListener.clearView();
         }
     }
@@ -425,7 +427,7 @@ public interface OnStateChangedListener {
             //判断下ViewHolder是否实现了OnStateChangedListener
             if (viewHolder instanceof OnStateChangedListener) {
                 OnStateChangedListener onStateChangedListener = (OnStateChangedListener) viewHolder;
-                //回调ViewHolder中的onItemSelected()方法改变背景色
+                //回调ViewHolder中的onSelectedChanged()方法改变背景色
                 onStateChangedListener.onSelectedChanged();
             }
         }
@@ -439,7 +441,7 @@ public interface OnStateChangedListener {
         //判断下ViewHolder是否实现了OnStateChangedListener
         if (viewHolder instanceof OnStateChangedListener) {
             OnStateChangedListener onStateChangedListener = (OnStateChangedListener) viewHolder;
-            //回调ViewHolder中的onItemSelected()方法改变背景色
+            //回调ViewHolder中的clearView()方法恢复背景色
             onStateChangedListener.clearView();
         }
     }
